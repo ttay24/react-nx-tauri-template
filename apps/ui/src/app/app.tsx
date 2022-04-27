@@ -7,7 +7,7 @@ import { Route, Link } from 'react-router-dom';
 export function App() {
   return (
     <>
-      <NxWelcome title="ui" />
+      <NxWelcome title="ttay-react-tauri-template" />
       <div />
 
       {/* START: routes */}
