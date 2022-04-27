@@ -1,5 +1,5 @@
 {
-  "npmScope": "ttay-react-tauri-template",
+  "npmScope": "ttay-react-nx-tauri-template",
   "affected": {
     "defaultBase": "main"
   },

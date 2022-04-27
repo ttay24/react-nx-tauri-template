@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "ttay-react-tauri-template",
+    "productName": "ttay-react-nx-tauri-template",
     "version": "0.1.0"
   },
   "build": {
@@ -52,7 +52,7 @@
     },
     "windows": [
       {
-        "title": "ttay-react-tauri-templatettay-react-tauri-templatettay-react-tauri-template",
+        "title": "ttay-react-nx-tauri-templatettay-react-nx-tauri-templatettay-react-nx-tauri-template",
         "width": 800,
         "height": 600,
         "resizable": true,
