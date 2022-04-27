@@ -1,6 +1,6 @@
 {
   "package": {
-    "productName": "Git Gwombat",
+    "productName": "ttay-react-tauri-template",
     "version": "0.1.0"
   },
   "build": {
@@ -13,7 +13,7 @@
     "bundle": {
       "active": true,
       "targets": "all",
-      "identifier": "com.ttay24.gwombat",
+      "identifier": "com.ttay24.react-tauri-template",
       "icon": [
         "icons/32x32.png",
         "icons/128x128.png",
@@ -54,7 +54,7 @@
     },
     "windows": [
       {
-        "title": "GIT GWOMBAT",
+        "title": "ttay-react-tauri-templatettay-react-tauri-templatettay-react-tauri-template",
         "width": 800,
         "height": 600,
         "resizable": true,

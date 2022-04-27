@@ -3,19 +3,18 @@
   "version": "0.0.0",
   "license": "MIT",
   "scripts": {
-    "start": "nx serve",
-    "build": "nx build",
+    "start": "nx run-many --parallel --target=serve --projects=tauri-desktop,ui",
+    "build": "nx build tauri-desktop",
     "tauri": "tauri",
     "test": "nx test",
     "build:tauri-desktop": "nx build tauri-desktop",
     "build:ui": "nx build ui",
-    "build:vscode": "nx build vscode",
     "serve:tauri-desktop": "nx serve tauri-desktop",
     "serve:ui": "nx serve ui"
   },
   "private": true,
   "dependencies": {
-    "@tauri-apps/api": "^1.0.0-rc.2",
+    "@tauri-apps/api": "^1.0.0-rc.4",
     "core-js": "^3.6.5",
     "react": "^17.0.2",
     "react-dom": "17.0.2",
