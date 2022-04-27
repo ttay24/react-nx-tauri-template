@@ -1,0 +1,22 @@
+{
+  "projectType": "application",
+  "root": "apps/tauri-desktop",
+  "sourceRoot": "apps/tauri-desktop/src",
+  "targets": {
+    "build": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "tauri build",
+        "cwd": "apps/tauri-desktop"
+      }
+    },
+    "serve": {
+      "executor": "@nrwl/workspace:run-commands",
+      "options": {
+        "command": "tauri dev",
+        "cwd": "apps/tauri-desktop"
+      }
+    }
+  },
+  "tags": []
+}

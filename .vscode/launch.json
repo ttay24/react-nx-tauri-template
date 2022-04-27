@@ -1,0 +1,12 @@
+{
+  "configurations": [
+    {
+      "args": ["--extensionDevelopmentPath=${workspaceFolder}"],
+      "name": "Launch Extension",
+      "outFiles": ["${workspaceFolder}/dist/apps/vscode/**/*.js"],
+      "preLaunchTask": "npm: build:vscode",
+      "request": "launch",
+      "type": "pwa-extensionHost"
+    }
+  ]
+}
