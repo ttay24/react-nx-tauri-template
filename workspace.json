@@ -3,7 +3,6 @@
   "projects": {
     "tauri-desktop": "apps/tauri-desktop",
     "ui": "apps/ui",
-    "ui-e2e": "apps/ui-e2e",
-    "vscode": "apps/vscode"
+    "ui-e2e": "apps/ui-e2e"
   }
 }
