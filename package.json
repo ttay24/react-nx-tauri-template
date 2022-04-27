@@ -33,7 +33,7 @@
     "@nrwl/tao": "13.8.4",
     "@nrwl/web": "13.8.4",
     "@nrwl/workspace": "13.8.4",
-    "@tauri-apps/cli": "^1.0.0-rc.7",
+    "@tauri-apps/cli": "1.0.0-rc.9",
     "@testing-library/react": "12.1.2",
     "@testing-library/react-hooks": "7.0.2",
     "@types/jest": "27.0.2",
